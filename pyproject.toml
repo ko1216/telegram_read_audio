@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "telegram-read-audio"
+version = "0.1.0"
+description = ""
+authors = ["korchaginks <kkonstantinserg@gmail.com>"]
+readme = "README.md"
+packages = [{include = "telegram_read_audio"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
