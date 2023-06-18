@@ -8,6 +8,13 @@ packages = [{include = "telegram_read_audio"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+telegram = "^0.0.1"
+gtts = "^2.3.2"
+python-dotenv = "^1.0.0"
+python-telegram-bot = "13.13"
+pydub = "^0.25.1"
+ffmpeg = "^1.4"
+speechrecognition = "^3.10.0"
 
 
 [build-system]
